@@ -1,4 +1,4 @@
-# WellPulse MCP
+# Wellness Pulse MCP
 
 **Plug your AI into real wellbeing intelligence.**
 
