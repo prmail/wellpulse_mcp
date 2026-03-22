@@ -4,6 +4,8 @@
 
 One connection gives your AI credible public benchmarks (CDC PLACES) plus institution-specific wellness signals — trends, snapshots, and alert checks — from your WellPulse data, returned in plain JSON.
 
+[![Wellness Pulse MCP server](https://glama.ai/mcp/servers/prmail/wellpulse_mcp/badges/card.svg)](https://glama.ai/mcp/servers/prmail/wellpulse_mcp)
+
 ---
 
 ## Why teams add this
