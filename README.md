@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/prmail/WellPulse_mcp/main/WellPulse.jpeg" alt="WellPulse Logo" width="120" style="border-radius: 16px;" />
 
-<h1>WellPulse MCP</h1>
+<h1>Wellness Pulse MCP</h1>
 
 <p><strong>Plug your AI into real wellbeing intelligence — one connection, instant insight.</strong></p>
 
@@ -23,28 +23,28 @@
 
 <br />
 
-> **WellPulse MCP** is a plug-and-play intelligence layer that turns raw wellbeing data into clear, actionable insights for AI systems.  
+> **Wellness Pulse MCP** is a plug-and-play intelligence layer that turns raw wellbeing data into clear, actionable insights for AI systems.  
 > One integration connects your copilots, agents, and dashboards to trusted public benchmarks and live institutional wellness signals — no analyst required.
 
 </div>
 
 ---
 
-## 🧠 What Is WellPulse MCP?
+## 🧠 What Is Wellness Pulse MCP?
 
-WellPulse MCP is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that bridges the gap between raw wellbeing data and AI-powered understanding.
+Wellness Pulse MCP is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that bridges the gap between raw wellbeing data and AI-powered understanding.
 
 With a **single integration**, your AI gets access to:
 
 - 📊 **CDC PLACES public benchmarks** — trusted mental health data for any ZIP code or county in the US
-- 🏢 **Institutional wellness signals** — live trends, snapshots, and alert checks from your organization's WellPulse data
+- 🏢 **Institutional wellness signals** — live trends, snapshots, and alert checks from your organization's Wellness Pulse data
 - 🗣️ **Plain-English explanations** — AI-ready summaries returned alongside structured JSON
 
 Built for fast **"ask → answer"** workflows in copilots, automations, and AI dashboards — no human analysis needed in the loop.
 
 ---
 
-## ✨ Why Teams Add WellPulse MCP
+## ✨ Why Teams Add Wellness Pulse MCP
 
 | Capability | What It Unlocks |
 |---|---|
@@ -58,7 +58,7 @@ Built for fast **"ask → answer"** workflows in copilots, automations, and AI d
 
 ## 🏗️ Architecture Overview
 
-![WellPulse Architecture](https://raw.githubusercontent.com/prmail/WellPulse_mcp/main/Flowchart.png)
+![Wellness Pulse Architecture](https://raw.githubusercontent.com/prmail/WellPulse_mcp/main/Flowchart.png)
 
 ---
 
@@ -98,7 +98,7 @@ Returns **default alert thresholds** based on organization size and location typ
 
 ### 🏢 Institution Data Tools
 
-> These tools require a valid institution identifier (`institution_id`) from your WellPulse account.
+> These tools require a valid institution identifier (`institution_id`) from your Wellness Pulse account.
 
 #### `get_institution_snapshot`
 A **point-in-time snapshot** of wellness data for your institution over a given window.
@@ -106,7 +106,7 @@ A **point-in-time snapshot** of wellness data for your institution over a given 
 **Arguments:**
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `institution_id` | string | ✅ | Your WellPulse institution ID |
+| `institution_id` | string | ✅ | Your Wellness Pulse institution ID |
 | `window_days` | integer | ✅ | Look-back window in days (e.g. `30`, `90`) |
 
 **Returns:** `response_count`, `avg_wellness_score`, `last_response_at`
@@ -119,7 +119,7 @@ Fetches a **daily time-series** of wellness scores and response counts.
 **Arguments:**
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `institution_id` | string | ✅ | Your WellPulse institution ID |
+| `institution_id` | string | ✅ | Your Wellness Pulse institution ID |
 | `window_days` | integer | ✅ | Number of days to include |
 
 **Returns:** Array of `{ day, avg_wellness, responses }` objects
@@ -134,7 +134,7 @@ Fetches a **daily time-series** of wellness scores and response counts.
 **Arguments:**
 | Parameter | Type | Required | Description |
 |---|---|---|---|
-| `institution_id` | string | ✅ | Your WellPulse institution ID |
+| `institution_id` | string | ✅ | Your Wellness Pulse institution ID |
 
 **Returns:** `drop_pct`, `alert` (boolean flag)
 
@@ -163,7 +163,7 @@ Sector-level aggregated wellness data across institutions.
 ```json
 {
   "mcpServers": {
-    "WellPulse": {
+    "Wellness Pulse": {
       "url": "https://wpulse.org/mcp/",
       "transport": "http-stream"
     }
@@ -175,7 +175,7 @@ Sector-level aggregated wellness data across institutions.
 ```json
 {
   "mcpServers": {
-    "WellPulse": {
+    "Wellness Pulse": {
       "url": "https://wpulse.org/mcp/",
       "transport": "http-stream"
     }
@@ -261,7 +261,7 @@ curl -s https://wpulse.org/mcp/ \
 
 ## 💬 Example Prompts to Ask Your AI
 
-Once WellPulse MCP is connected, try asking your AI:
+Once Wellness Pulse MCP is connected, try asking your AI:
 
 ```
 "What's our wellness trend for the last 90 days?"
@@ -295,7 +295,7 @@ All calls use **JSON-RPC 2.0**.
 
 ## 🔐 Privacy & Security
 
-WellPulse MCP is built with a **privacy-first architecture**:
+Wellness Pulse MCP is built with a **privacy-first architecture**:
 
 - ✅ No user tracking or behavioral logging
 - ✅ No personally identifiable information (PII) stored or transmitted
@@ -314,13 +314,13 @@ Use daily trend monitoring and week-over-week alert checks to detect emerging bu
 Combine CDC county benchmarks with your student wellness survey data to contextualize scores relative to regional norms — ideal for accreditation reports and student affairs presentations.
 
 ### 📈 HR Tech & Wellness Platforms
-Embed WellPulse MCP into your existing copilot or dashboard product to instantly add benchmarked mental health context and trend narration — without building your own data pipeline.
+Embed Wellness Pulse MCP into your existing copilot or dashboard product to instantly add benchmarked mental health context and trend narration — without building your own data pipeline.
 
 ### 📢 Public Health Communications
 Pull CDC PLACES FMD data by ZIP or county to generate marketing copy, grant narratives, and community health reports grounded in authoritative public data.
 
 ### 🤖 AI Agents & Automations
-Wire WellPulse MCP into multi-step agents that periodically check for alert conditions, draft stakeholder updates, and route escalations — all without human-in-the-loop analysis.
+Wire Wellness Pulse MCP into multi-step agents that periodically check for alert conditions, draft stakeholder updates, and route escalations — all without human-in-the-loop analysis.
 
 ---
 
@@ -343,7 +343,7 @@ This server is available under an **Institutional License**. Please visit [wpuls
 
 <img src="https://raw.githubusercontent.com/prmail/WellPulse_mcp/main/WellPulse.jpeg" alt="WellPulse" width="60" />
 
-<p>Built with care by the <strong>WellPulse</strong> team.<br/>Helping organizations understand and act on wellbeing data — intelligently.</p>
+<p>Built with care by the <strong>Wellness Pulse</strong> team.<br/>Helping organizations understand and act on wellbeing data — intelligently.</p>
 
 <p>
   <a href="https://wpulse.org/">wpulse.org</a> •
