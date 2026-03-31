@@ -58,30 +58,7 @@ Built for fast **"ask → answer"** workflows in copilots, automations, and AI d
 
 ## 🏗️ Architecture Overview
 
-```
-┌─────────────────────────────────────┐
-│        Your AI App / Agent          │
-│   (Claude, Cursor, Custom Copilot)  │
-└────────────────┬────────────────────┘
-                 │  MCP Tool Calls (JSON-RPC)
-                 ▼
-┌─────────────────────────────────────┐
-│         WellPulse MCP Server        │
-│      https://wpulse.org/mcp/        │
-│                                     │
-│  ┌─────────────────────────────┐   │
-│  │  Public Benchmarks          │   │
-│  │  (CDC PLACES — ZIP/County)  │   │
-│  └─────────────────────────────┘   │
-│  ┌─────────────────────────────┐   │
-│  │  Institution Data           │   │
-│  │  (Your WellPulse DB)        │   │
-│  └─────────────────────────────┘   │
-└────────────────┬────────────────────┘
-                 │
-                 ▼
-     Plain-English Insights + Structured JSON
-```
+![WellPulse Architecture](https://raw.githubusercontent.com/prmail/wellpulse_mcp/main/Flowchart.png)
 
 ---
 
