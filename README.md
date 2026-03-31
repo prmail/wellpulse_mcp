@@ -7,11 +7,11 @@
 <p><strong>Plug your AI into real wellbeing intelligence — one connection, instant insight.</strong></p>
 
 <p>
-  <a href="https://wellpulse.org/"><img src="https://img.shields.io/badge/Website-wellpulse.org-0ea5e9?style=for-the-badge&logo=globe&logoColor=white" alt="Website" /></a>
-  <a href="https://api.moneychoice.us/mcp"><img src="https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" /></a>
+  <a href="https://wpulse.org/"><img src="https://img.shields.io/badge/Website-wpulse.org-0ea5e9?style=for-the-badge&logo=globe&logoColor=white" alt="Website" /></a>
+  <a href="https://wpulse.org/mcp/"><img src="https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" /></a>
   <a href="https://claude.ai"><img src="https://img.shields.io/badge/Claude-Compatible-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" /></a>
   <a href="https://cursor.sh"><img src="https://img.shields.io/badge/Cursor-Compatible-3b82f6?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" /></a>
-  <a href="https://moneychoice.us/"><img src="https://img.shields.io/badge/License-Institutional-1e3a5f?style=for-the-badge&logo=licenseplate&logoColor=white" alt="License" /></a>
+  <a href="https://wpulse.org/"><img src="https://img.shields.io/badge/License-Institutional-1e3a5f?style=for-the-badge&logo=licenseplate&logoColor=white" alt="License" /></a>
 </p>
 
 <p>
@@ -349,16 +349,16 @@ Wire WellPulse MCP into multi-step agents that periodically check for alert cond
 
 ## 📚 Resources
 
-- 🌐 **Website:** [wellpulse.org](https://wellpulse.org/)
+- 🌐 **Website:** [wpulse.org](https://wpulse.org/)
 - 📖 **MCP Protocol Docs:** [modelcontextprotocol.io](https://modelcontextprotocol.io/)
 - 📊 **CDC PLACES Data:** [cdc.gov/places](https://www.cdc.gov/places/)
-- 🐛 **Issues / Support:** [wellpulse.org/contact](https://wellpulse.org/)
+- 🐛 **Issues / Support:** [wpulse.org](https://wpulse.org/)
 
 ---
 
 ## 📄 License
 
-This server is available under an **Institutional License**. Please visit [moneychoice.us](https://moneychoice.us/) for licensing details and institutional access.
+This server is available under an **Institutional License**. Please visit [wpulse.org](https://wpulse.org/) for licensing details and institutional access.
 
 ---
 
@@ -369,7 +369,7 @@ This server is available under an **Institutional License**. Please visit [money
 <p>Built with care by the <strong>WellPulse</strong> team.<br/>Helping organizations understand and act on wellbeing data — intelligently.</p>
 
 <p>
-  <a href="https://wellpulse.org/">wellpulse.org</a> •
+  <a href="https://wpulse.org/">wpulse.org</a> •
   <a href="https://wpulse.org/mcp/">Live MCP Endpoint</a>
 </p>
 
